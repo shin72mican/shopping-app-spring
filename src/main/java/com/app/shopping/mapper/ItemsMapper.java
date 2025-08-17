@@ -23,7 +23,6 @@ public interface ItemsMapper {
 	    @Result(property = "updateAt", column = "update_at"),
 	    @Result(property = "updateId", column = "update_id")
 	})
-
 	List<Items> findAll();
 	
 	public class ItemSqlProvider implements ProviderMethodResolver {
